@@ -10,7 +10,7 @@ function Body(){
     useEffect(()=>{
         async function fetchUsers(){
             try{
-                const data=await axios.post("http://demo2211087.mockable.io/mock")
+                const data=await axios.post("https://demo2211087.mockable.io/mock")
                 const retArr=await data.data.companies;
                 setItems(retArr);
             }catch(err){
