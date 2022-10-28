@@ -1,0 +1,42 @@
+.body{
+    height: 100vh;
+    margin-top: 10px;
+    background-color: #282828;
+}
+
+.user-title{
+    padding: 20px;
+}
+
+.user-text{
+    color: #bdae93;
+    font-size: 40px;
+    margin: 0;
+}
+
+.user-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.head-item{
+    background-color: #504945;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    border: 0.001em solid #a89984;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    color: #bdae93;
+}
+
+.head-name{
+    padding-left: 22%;
+}
+
+.head-status{
+    padding-right: 20%;
+}

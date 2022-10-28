@@ -1,0 +1,24 @@
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.navbar-left{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+}
+
+.nav-items{
+    margin-right:10px;
+}
+
+.nav-text{
+    font-size: 25px;
+}

@@ -1,0 +1,20 @@
+.list-item{
+    background-color: #bdae93;
+    display: flex;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.001em solid #a89984;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    color: #504945;
+}
+
+.item-check{
+    display: flex;
+    justify-content: center;
+}
+
+.item-status{
+}
